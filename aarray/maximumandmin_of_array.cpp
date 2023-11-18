@@ -5,7 +5,7 @@ int Max_Of_Array(int num[], int n){
     int maximum = INT8_MIN;
     for(int i=0; i<n ;i++){
         // if(num[i]>max){
-        //     max=num[i];
+        //     maxium=num[i];
         // }
      maximum = max(maximum,num[i]);
     }
